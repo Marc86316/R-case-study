@@ -34,12 +34,11 @@
 
 ## 4. 客戶關係與社會科學 (CRM & Social Science)
 
-包含電信客戶流失分析、災難生存預測與民意調查統計。
+包含電信客戶流失分析與民意調查統計。
 
 | 資料集 (Dataset) | 題目位置 | 題目內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- | :--- |
 | **TelecomChurn (churn)** | HW3, Unit7, Unit11 | 分析電信客戶流失特徵；篩選共同預測因子；比較決策樹與集成學習在交叉驗證上的 AUC | CART、Random Forest、Gradient Boosting、C5.0、AdaBoost (Adabag)、ROC/AUC 曲線 |
-| **titanic** | HW2, Unit4, Unit7 | 預測鐵達尼號乘客生存率，探討性別、年齡、艙等對生存機率的影響並比較模型與 ROC | Naive Bayes、Logit 模型、C5.0 決策樹、CART、ROC/AUC 評估 |
 | **public opinion polling** | HW2 | 民眾對政府能源政策（核能/綠能/煤氣）的偏好分佈與性別是否有差異 | 卡方檢定 (Chi-square test) |
 
 ## 5. 運動分析 (Sports Analytics)
@@ -89,3 +88,5 @@
 | :--- | :--- | :--- | :--- |
 | **iris** | Unit1, Unit3, Unit4, Unit6, Unit8, Unit12, Unit13 | 探索性資料分析、常態性檢定；測試各種分群演算法並視覺化；多類別分類與 PCA 測試 | 直方圖、相關係數、K-means、K-medoids、Fuzzy C-means、階層式分群、Gaussian Mixture、KNN、Naive Bayes、多類別 Logit、常態檢定(Shapiro/QQ-plot)、Random forest、PCA、SVM |
 | **boston** | Unit5 | 使用多種線性與偏誤迴歸模型預測波士頓房價並進行誤差比較 | MLR、Ridge、Lasso、ElasticNet |
+| **titanic** | HW2, Unit4, Unit7 | 預測鐵達尼號乘客生存率，探討性別、年齡、艙等對生存機率的影響並比較模型與 ROC | Naive Bayes、Logit 模型、C5.0 決策樹、CART、ROC/AUC 評估 |
+
