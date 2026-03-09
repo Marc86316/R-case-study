@@ -1,7 +1,5 @@
 # R-case-study
 
-![138F4740-13DC-4A6A-A4D6-019779204512](https://github.com/user-attachments/assets/1a845e31-fb25-412a-b1a7-ee1ea199c9dc)
-
 ## 1. 金融與經濟分析 (Finance & Economics)
 
 包含總體經濟指標預測、銀行行銷活動分析與投資組合最佳化。
