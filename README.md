@@ -4,7 +4,7 @@
 
 包含總體經濟指標預測、銀行行銷活動分析與投資組合最佳化。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **Asia_index** | 預測亞洲國家（台、日、韓、印）的指數；計算各國風險與報酬並比較；尋找關鍵績效指標 (KPI) | SMA、指數平滑、MLR、MARS、KNN迴歸、F檢定、T檢定、XGBoost、Gradient Boosting (GB) |
 | **bank** | 找出客戶是否貸款/定存的關聯規則；分析不同年齡、婚姻狀態與帳戶餘額、貸款的關聯；以分類器預測客戶行為 | 資料離散化、關聯規則、Logit、Naive Bayes、T檢定、卡方檢定、比例檢定、ANOVA、Random Forest、AdaBoost、GB、XGBoost、Bagging |
@@ -15,7 +15,7 @@
 
 涵蓋消費性電子產品銷量、半導體晶片設計及工業設備壽命預測。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **electronics** | 對台積電、蘋果及各大廠的晶片/消費性電子產品銷售總額進行預測，並尋找最佳的時間落後 (time lags) 設定 | ARIMA、Holt-Winters、VAR、動態 ARIMA、lag-ARIMA、SVR、ANN (MLP)、MLR、MARS、SARIMA |
 | **IC_design** | 半導體 IC 設計公司的 EPS 與 ROE 預測，並透過降維技術處理高維度特徵 | PCA、最大變異法轉軸 (Varimax)、KNN、MARS、MLR、Sliced Inverse Regression (SIR) |
@@ -36,7 +36,7 @@
 
 包含電信客戶流失分析與民意調查統計。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **TelecomChurn (churn)** | 分析電信客戶流失特徵；篩選共同預測因子；比較決策樹與集成學習在交叉驗證上的 AUC | CART、Random Forest、Gradient Boosting、C5.0、AdaBoost (Adabag)、ROC/AUC 曲線 |
 | **public opinion polling** | 民眾對政府能源政策（核能/綠能/煤氣）的偏好分佈與性別是否有差異 | 卡方檢定 (Chi-square test) |
@@ -45,7 +45,7 @@
 
 聚焦於職業運動賽事之球員表現數據分群、打擊指標降維與進階指標探索。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **2011NBA** | 針對 NBA 球員表現數據進行集群分析，探討球員角色分群，並以 ANOVA 分析集群與得分表現是否相關 | 階層式分群 (Ward-distance)、One-way ANOVA |
 | **2012MLB** | 使用美國職棒大聯盟的各項打擊數據（如攻擊指標等）進行降維萃取並視覺化評估 | PCA、陡坡圖 (Scree Plot)、因素負荷量圖 (Biplot/Dotchart) |
@@ -54,7 +54,7 @@
 
 此分類著重於病患資料分析、疾病預測與身體特徵之離群值與分類探討。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **pima** | 糖尿病離群值檢測、特徵分群、關聯規則探討；建立分類模型預測是否罹患糖尿病；檢定健康與患病群體的顯著差異 | Mahalanobis距離、Isolation Forest、Fuzzy C-means、關聯規則(Apriori)、Logit、KNN、T檢定、F檢定、SVM、CART、BPN-MLP |
 | **gender_outlier / gender_size** | 探索男女身高體重腰圍之分佈與離群值；使用MDS降維；對性別進行分群與分類預測；男女特徵差異的統計檢定 | 直方圖、盒狀圖、MDS、階層式分群(DB index)、Mahalanobis、Isolation Forest、Gaussian Mixture (EM)、KNN、Naive Bayes、SVM、T檢定、ANOVA |
@@ -64,7 +64,7 @@
 
 聚焦於航運運量預測、運費與各型船舶（貨櫃、輕便型、海岬型）KPI探索。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **container** | 訓練模型以預測貨櫃營收；尋找重要預測變數並解釋因果關係；對進階迴歸器進行交叉驗證績效比較 | 偏誤迴歸 (Ridge, Lasso, ElasticNet)、MLR、SVR、GB、MARS、CART、Random Forest、XGBoost、KNN、Cross Validation |
 | **handysize** | 針對輕便型散裝船，辨識關鍵指標並預測市場數據 | MLR、MARS、KNN、Random Forest、XGBoost |
@@ -75,7 +75,7 @@
 
 專注於紅酒與白酒的成分分析、品質評分 (Regression) 與等級分類 (Classification)。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **winequality-red** | 將品質標籤離散化為分類問題；進行降維並測試分群與分類績效；建構紅酒品質迴歸模型 | K-means、K-medoids、PCA、Logit、Naive Bayes、SVM、KNN、MARS、CART、Random Forest、AdaBoost、GB、ANN (nnet) |
 | **winequality-white** | 以PCA萃取特徵並分類；執行5-fold cross validation進行白酒品質預測與分類模型比較 | PCA、SVM、ANN (neuralnet, nnet)、XGBoost、SVR、AdaBoost、Gradient Boosting、Random Forest、Bagging |
@@ -84,7 +84,7 @@
 
 常用於演算法展示、基礎統計或探索性資料分析 (EDA) 的經典開源資料。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **iris** | 探索性資料分析、常態性檢定；測試各種分群演算法並視覺化；多類別分類與 PCA 測試 | 直方圖、相關係數、K-means、K-medoids、Fuzzy C-means、階層式分群、Gaussian Mixture、KNN、Naive Bayes、多類別 Logit、常態檢定(Shapiro/QQ-plot)、Random forest、PCA、SVM |
 | **boston** | 使用多種線性與偏誤迴歸模型預測波士頓房價並進行誤差比較 | MLR、Ridge、Lasso、ElasticNet |
