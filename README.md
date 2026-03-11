@@ -26,7 +26,7 @@
 
 著重於電力需求預測、發電廠容量最佳化及原物料價格預測。
 
-| 資料集 (Dataset) | 題目內容 | 技術線 (Techniques & Models) |
+| 資料集 (Dataset) | 內容 | 技術線 (Techniques & Models) |
 | :--- | :--- | :--- |
 | **electricity / electricity_optimization** | 進行電力需求預測；針對成本與碳排放政策進行動態最佳化與模擬分析；使用強化學習尋求平衡情境最佳解 | 動態最佳化、模擬 (Simulation)、線性規劃、強化學習、Holt-Winters、SARIMA、MLR、MARS、VAR |
 | **material** | 針對油、煤、氣及金、銀、銅等原物料建構時間序列與迴歸預測模型，並篩選 KPI | SARIMA、VAR、MARS、SVR |
